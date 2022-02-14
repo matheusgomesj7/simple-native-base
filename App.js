@@ -32,9 +32,9 @@ export default function App() {
           <Input InputRightElement={<Icon as={<MaterialIcons name="visibility-off"/>} size={4} mr="2" color="muted.400"/>} marginBottom="20px" placeholder="********" w="100%" color="white" value={password} onChangeText={e => setPassword(e)}/>
           <Button alignSelf="center" bg="#5e66f0" borderRadius="25px" width="85%" onPress={() => handler()}>Entrar</Button>
         </VStack>
+        <Text bottom="30px">RendaFacil</Text>
+        <Text bottom="30px">Simplificando sua vida</Text>
       </Box>
     </NativeBaseProvider>
   );
-}
-
-                                                              
+}                                    
